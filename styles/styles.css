@@ -1,0 +1,102 @@
+    /* Center the container */
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Courier New, Courier, monospace;
+      }
+
+      .exempt-form {
+        /* no style for these forms */
+		border: None
+
+      }
+
+
+      /* Style the header */
+      h1 {
+        text-align: center;
+        border: 2px solid black;
+        width: 600px;
+      }
+
+      /* Style the form */
+      form {
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        line-height: 1.5;
+        width: 400px;
+      }
+
+      input {
+        border-radius: 5px;
+      }
+
+      .box {
+        height: 30px;
+        border: 1px solid grey;
+      }
+
+      .Button {
+        height: 40px;
+        width: 100px;
+        background-color: #1589FF;
+        color: white;
+      }
+
+		table {
+		  border-collapse: collapse;
+		  width: 80%;
+		  
+		}
+
+		th {
+		  border: 2px solid black;
+		  font-weight: bold;
+		  text-align: center;
+		  padding: 10px;
+		}
+
+		td {
+		  border: 1px solid grey;
+		  text-align: left;
+		  padding: 10px;
+		}
+
+	.product-container {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+		flex-direction: column;
+	}
+	
+	.product-image {
+		margin-right: 20px;
+		max-width: none;
+		margin-bottom: 1rem;
+	}
+	
+	.product-name {
+		font-size: 24px;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	.product-description {
+		font-size: 16px;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	.product-price {
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	.product-form {
+		display: flex;
+	}
